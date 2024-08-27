@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+body{
+   
+    margin: 0 auto;
+    background-color: #D9DDDC;
+    
+    background-size: cover;
+} 
+nav{
+    display: flex;
+    background-color: #000013;
+    color: #4EC29E;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 40px;
+    padding: 20px;
+    margin: 0px;
+}
+.element{
+    font-size: 1.5rem;
+    color: white;
+}
+.intro{
+    padding: 35px ;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    
+
+}
+.intro,p{
+    font-size: 3.0rem;
+}
+.intro,h1{
+    font-size: 4rem;
+    width: 600px;
+}
+.info{
+    font-size: 1.5rem;
+    width: 800px;
+}
+.hire-btn{
+    background-color: black;
+    width: 170px;
+    height: 75px;
+    color: #D9DDDC;
+    font-size: 2rem;
+    border-radius: 37.5px;
+
+}
+.element{
+    cursor: pointer;
+    transition: 0.15s;
+}
+.elememt:hover{
+    color: gray;
+
+}
+
